@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -49,18 +50,199 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
 }
 
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+	margin: 1% 4%;
+	
 }
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* HEADER NAV BAR START */
+
+.navBar{
+	width:100%;
+	word-spacing: 70px;
+	height: 7%;
+	
+	
+}
+.navdiv{
+	width:75%;
+	display: inline-block;
+	height:100%;
+	
+}
+
+a{
+	color:grey;
+	text-decoration: none;
+	font-size:25px;
+	margin-left: 3%;
+}
+.logo{
+	display:inline-block;
+	width:15%;
+	height:100%;
+
+
+}
+.logo img{
+	width:80%;
+	height:80%;
+}
+
+
+/* HEADER NAV BAR ENDING */
+
+/* SECTION ONE START */
+h1{
+	font-size: 90px;
+
+	
+
+}
+
+.first-box{
+	width:100%;
+	height:65%;
+	border-bottom: black 2px solid;
+	
+}
+.code-img{
+	width:49.5%;
+	height:100%;
+	display: inline-block;
+	margin-left:.75%;
+}
+.code-image{
+	height:75%;
+	width:75%;
+	margin:10%;
+
+}
+.header{
+	display: inline-block;
+	text-align:center;
+	height:100%;
+	width: 49.5%;
+	}
+
+button{
+	width: 225px;
+	height: 40px;
+	background-color: white;
+	border: black 1px solid;
+	font-size:20px;
+		
+	}
+
+
+/* SECTION ONE END */
+footer{
+	text-align:center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 25px;
+}
+.phone-number{
+	line-height:350% ;
+}
+address{
+	font-size:22px;
+	line-height: 25px;
+}
+.middle-img{
+	width:100% ;
+	display:center;
+	height:30%;
+	
+}
+
+
+
+/* SECTION FEATURE-ABOUT START */
+.Features-About{
+	
+	display: inline-block;
+	justify-content: center;
+	letter-spacing: 2px;
+	line-height: 30px;
+	font-size:20px;
+	height: 27%;
+	
+}
+.Features,.About{
+	display: inline-block;
+	width: 49.8%;
+	margin:3% 0%;
+	padding:0% 1%;
+}
+h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* SECTION FEATURE-ABOUT END */
+
+/* VIS PROD SERV SECTION START */
+.Services-Vision{
+	display: inline-block;
+	justify-content: center;
+	letter-spacing: 2px;
+	line-height: 30px;
+	font-size:20px;
+	height: 35%;
+	border-bottom: black 2px solid;
+}
+.Vision,.Product,.Services{
+	display: inline-block;
+	width: 33%;
+	margin: 4% 0%;
+	letter-spacing: 2px;
+	line-height: 30px;
+	padding:0% 1%;
+	
+}
+/* VIS PROD SERV SECTION END */
+
+/* CONTACT SECTION START */
+
+.contact{
+	margin:3% 0% ;
+	
+}
+address{
+	font-size:22px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* CONTACT SECTION END */
+
+
+
+/* DEV TOOLS */
+div{
+	border: 1px lime solid;
+}
+section{
+	border: 1px red solid;
+}
+/* DEV TOOLS END  */
+
+
